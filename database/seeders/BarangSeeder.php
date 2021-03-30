@@ -13,6 +13,12 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('tb_barang')->insert([
+            'kode_barang' => 'PRD004',
+            'nama_barang' => 'Cheetos',
+            'kategori_barang' => 'Snack',
+            'harga' => 10000,
+            'qty' => 27,
+        ]);
     }
 }
