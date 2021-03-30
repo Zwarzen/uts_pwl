@@ -63,7 +63,7 @@ class BarangController extends Controller
     {
         //menampilkan detail data dengan menemukan berdasarkan Nim Mahasiswa untuk diedit 
         $tb_barang = Barang::find($kode_barang); 
-        return view('barang.edit',['tb_barangs' => $tb_barang]);
+        return view('barang.edit',['tb_barang' => $tb_barang]);
     }
 
     /**
