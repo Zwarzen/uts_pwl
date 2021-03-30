@@ -7,6 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Barang extends Model
 {
-    protected $table = 'tb_barang';
+    protected $table = 'barangs';
     protected $primaryKey = 'id_barang';
+
+    protected $fillable = [ 
+        'kode_barang', 
+        'nama_barang', 
+        'kategori_barang', 
+        'harga', 
+        'qty', ];
 }
