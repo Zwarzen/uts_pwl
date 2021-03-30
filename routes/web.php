@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::Route::resource('barang', BarangController::class);
+Route::resource('barang', BarangController::class);
